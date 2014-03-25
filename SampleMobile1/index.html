@@ -37,11 +37,16 @@
         <div class="nav">
             <ul data-role="listview">
                 <li>
-                    <a href="#page-ui-interaction" data-transition="slide">Account Login</a>
+                    <a href="beforeAccountLogin.html" data-transition="slide">Account Login</a>
                 </li>
                 <li>
                     <a href="#page-location" data-transition="slide">Your Location</a>
                 </li>
+                
+                 <li>
+                    <a href="userProfile.html" data-transition="slide">Profile</a>
+                </li>
+                
             </ul>
         </div>
         
@@ -54,43 +59,8 @@
 
     </div>
 
-    <!--UI interaction-->
-    <div id="page-ui-interaction" data-role="page" data-add-back-btn="true">
-
-        <!--Header-->
-        <div data-role="header" data-position="fixed">
-            <h1>Login</h1>
-        </div>
-
-        <!--Content-->
-        <div data-role="content">
-            <div id="login-wrap">
-                <form data-ajax="false" id="login-form">
-                    <h3 id="login-text">Enter your credentials:</h3>
-                    <div>
-                        <input id="login-username" type="text" placeholder="Username" />
-                        <input id="login-password" type="password" placeholder="Password" />
-                    </div>
-
-                    <div class="buttons ui-bar">
-                        <div>
-                            <div class="left">
-                                <input type="submit" id="login" data-icon="check" data-inline="true" class="left" value="Login" />
-                            </div>
-                            <div class="right">
-                                <button id="login-reset" data-icon="delete" data-inline="true" class="right">Reset</button>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-
-            <div id="logout-wrap">
-                <div>
-                    <h1 class="welcome">Welcome, <span id="logout-username"></span>!
-                    </h1>
-                </div>
+    
+           
                 
                
                 
